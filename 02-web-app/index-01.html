@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>定时器按钮</title>
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type = 'text/javascript'>
+  var $bth,
+      i = 9,
+      timer;
+$(function(){
+    $bth = $('input[type = "button"]');
+    $bth.val('同意('+i+'s)');
+    $bth.attr('disabled','disabled');
+
+    timer = window.setInterval(function{
+      $bth.val('同意('+ i-- +'s)');
+
+      if(i === -1) {
+        window.clearInterval(timer);
+        $bth.val('同意');
+        $bth.removeAttr('disabled');
+      }
+      },1000);
+
+    $bth.click(function(){
+        alert('你会同意！！');
+      });
+    });
+</script>
+
+<style>
+.aa {
+  display: block;
+  margin: 40px auto;
+  width: 100px;
+  height: 100px;
+  font-size: 1.8me;
+}
+</style>
+</head>
+<body>
+<input class="aa" type = "button" value="同意">
+</body>
+</html>
+
