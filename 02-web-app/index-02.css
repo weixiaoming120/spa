@@ -1,0 +1,23 @@
+.pwDisplay{
+  width:216px;
+  height:20px;
+  display:none;
+  position:absolute;
+  left:2px;
+  top:10px;
+  border: #fff;
+}
+
+.inputs{
+  position:relative;
+  display:inline-block;
+}
+
+img{
+  display;inline-block;
+  height:28px;
+  position:relative;
+  top:8px;
+  left:-42px;
+  z-index:9;
+}
