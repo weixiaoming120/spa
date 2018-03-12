@@ -1,6 +1,4 @@
-var $btn,
-    i = 9,
-    timer;
+var $btn, i = 9,timer;
 $(function(){
   $btn = $('input[type="button"]');
   $btn.val('同意('+ i +' s)');
@@ -17,6 +15,6 @@ $(function(){
   },1000);
 
   $btn.click(function(){
-      alert('你会同意的！')
+      alert('你会同意的！');
   });
 });
