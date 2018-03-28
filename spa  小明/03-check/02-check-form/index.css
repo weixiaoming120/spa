@@ -1,0 +1,51 @@
+#rect{
+  width:270px;
+  margin:auto;
+  margin-top:100px;
+}
+#wid{
+  margin-bottom:10px;
+}
+#width{
+  width:200px;
+  height:20px;
+}
+#hei{
+  margin-bottom:10px;
+}
+#height{
+  width:200px;
+  height:20px;
+}
+#clu{
+  margin-bottom:10px;
+  width:70px;
+  height:35px;
+  font-size:20px;
+}
+#cir{
+  margin-bottom:10px;
+}
+#circ{
+  width:200px;
+  height:20px;
+  background-color:#f0f0f0;
+}
+#area{
+  width:200px;
+  height:20px;
+  background-color:#f0f0f0;
+}
+#a{
+  margin-left:50px;
+  color:red;
+  font-size:14px;
+}
+#b{
+  margin-left:50px;
+  color:red;
+  font-size:14px;
+}
+span{
+  color:red;
+}

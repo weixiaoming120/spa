@@ -1,0 +1,29 @@
+.zm-main{
+  width:350px;
+  height:34px;
+  font-size:20px;
+  margin:40px auto;
+  position:relative;
+}
+.zm-main input{
+  font-size:20px;
+} 
+
+
+.zm-main img {
+    display: inline-block;
+    height: 28px;
+    position: relative;
+    top:8px;
+    left:-39px;
+    
+}
+.zm-main input[type="text"]{
+  position:relative;
+  width:209px; 
+  top:-30px;
+  left:61px;
+  border:none;
+  z-index:-10;
+}
+

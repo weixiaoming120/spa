@@ -1,0 +1,38 @@
+#aa{
+  width:370px;
+  height:34px;
+  font-size:20px;
+  margin:100px 500px;
+  position:relative;
+}
+#pwd{
+  height:26px;
+  width:250px;
+  
+}
+#pc{
+  width:45px;
+  height:30px;
+  float:right
+}
+#pwDisplay {
+    width: 216px;
+    height: 20px;
+    display: none;
+    position: relative;
+    left: 2px;
+    top: 10px;
+    border: #fff;
+
+}
+
+
+img {
+    display: inline-block;
+    height: 28px;
+    position: relative;
+    top:2px;
+    left: -50px;
+    z-index: 9;
+}
+

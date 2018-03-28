@@ -1,0 +1,29 @@
+.main{
+  width:350px;
+  height:34px;
+  font-size:20px;
+  margin:40px auto;
+  position:relative;
+}
+.main input{
+  font-size:20px;
+} 
+
+
+.main img {
+    display: inline-block;
+    height: 28px;
+    position: relative;
+    top:7px;
+    left: -46px;
+    
+}
+.main input[type="text"]{
+  position:relative;
+  width:209px; 
+  top:-29px;
+  left:67px;
+  border:none;
+  z-index:-10;
+}
+
